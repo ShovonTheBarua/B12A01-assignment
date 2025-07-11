@@ -13,7 +13,7 @@ nav{
 }
 nav h1{
     color: #4E47FF;
-    font-size: 34px;
+    font-size: 50px;
     
 }
 .sign-up{
@@ -24,7 +24,10 @@ nav h1{
     border-radius: 10px;
     padding: 12px 36px;
     border: none;
-    
+}
+.sign-up:hover{
+    background-color: #ffb547;
+    color: #252432;    
 }
 .image-bg{
    background-image: url('../Assets/Hero-bg.png');
@@ -47,6 +50,7 @@ nav h1{
     font-weight: bold;
     text-align: center;
     padding: 0px;
+    color: #252432;
 
 
 }
@@ -61,7 +65,10 @@ nav h1{
     padding: 12px 36px;
     border: none;
 }
-
+.head-btn:hover{
+    background-color: #ffb547;
+    color: #252432;
+}
 .action-container{
     display: flex;
     justify-content: center;
@@ -106,6 +113,11 @@ nav h1{
     padding: 12px 36px;
     border: none;
 }
+.launch-btn:hover{
+    background-color: #ffb547;
+    color: #252432;
+
+}
 .user-container{
     background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
@@ -123,7 +135,9 @@ nav h1{
     font-size: 38px ;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #252432;
+
 }
 
 .number{
@@ -216,4 +230,106 @@ nav h1{
 .feedback-1{
     background-color: #FFFFFF;
     border: 2px solid #F2EDED;
+}
+.touch-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.touch-box{
+    display: flex;
+    gap: 115px ;
+    width: 1140px;
+    height: 630px;
+    /* background-color: #D6DDED;  */
+
+}
+.touch-form{
+    width: 497px;
+    height: 490 ;
+    /* background-color: #4E47FF; */
+    margin: 71px 0;
+}
+
+.touch-title{
+    width: 530px;
+    height: 230px;
+    font-size: 70px;
+    font-weight: bold;
+    align-items: center;
+    margin: 200px auto;
+    color: #252432;
+}
+
+input{
+    width: 495px;
+    height: 70px;
+    border-radius:10px ;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    
+    
+}
+.input-bar{
+    width: 496px;
+    height: 100px;
+    margin-bottom: 19px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+input::placeholder{
+    font-size: 20px;
+    padding: 20px 32px;
+}
+textarea{
+    width: 427px;
+    height: 135px;
+    border: 1px solid #D6DDED;
+    border-radius:10px ;
+    font-size: 20px;
+    padding: 20px 32px;
+}   
+
+.form-btn{
+    width: 495px;
+    height: 62px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+}
+.form-btn:hover{
+    background-color: #ffb547;
+    color: #252432;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #D6DDED;
+}
+.footer{
+    width: 530px;
+    height: 220px;
+    /* background-color: #D6DDED; */
+    margin: 104px 454px;
+    text-align: center;
+}
+.logo{
+    font-size:100px ;
+    color: #4E47FF;
+}
+.footer p{
+    color: #8987A1;
+}
+.footer a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
 }
